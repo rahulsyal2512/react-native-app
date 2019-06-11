@@ -38,22 +38,11 @@ export default class ListItems extends Component {
           </TouchableOpacity>
         )}
       />
-      // <View>
-      // {/* {this.props.text.map((placeOutput, i) => {
-      // {alert(this.prop)}
-      // return (
-      //     <TouchableOpacity key={i} onPress={()=>this.props.delete(i)}>
-      //         <Text key={i} style={styles.listitems}>{placeOutput}</Text>
-      //         {/* // <ListItems placeName={placeOutput} /> */}
-      //     // </TouchableOpacity>
-      // );
-      // })} */}
-      // </View>
-    );
+      );
+    }
   }
-}
-const styles = StyleSheet.create({
-  listitems: {
+  const styles = StyleSheet.create({
+    listitems: {
     width: "100%",
     flex: 1,
     marginTop: 5,
@@ -78,3 +67,14 @@ const styles = StyleSheet.create({
 
 
 //Tyler mcginnis
+// <View>
+// {/* {this.props.text.map((placeOutput, i) => {
+// {alert(this.prop)}
+// return (
+//     <TouchableOpacity key={i} onPress={()=>this.props.delete(i)}>
+//         <Text key={i} style={styles.listitems}>{placeOutput}</Text>
+//         {/* // <ListItems placeName={placeOutput} /> */}
+//     // </TouchableOpacity>
+// );
+// })} */}
+// </View>

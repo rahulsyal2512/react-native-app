@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, ScrollView, View, Button } from "react-native";
+import { StyleSheet, ScrollView, View, Button } from "react-native";
 
 import ListItems from "./src/components/ListItems/ListItems";
 import Input from "./src/components/Input/input";
